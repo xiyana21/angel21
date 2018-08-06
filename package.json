@@ -9,7 +9,12 @@
     "alexa-app-server": "^2.3.1",
     "node-gcm": "^0.14.4"
   },
-  "engines": {
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/xiyana21/angel21.git"
+},
+    "engines": {
     "node": "6.9.4"
   }
 }
+
