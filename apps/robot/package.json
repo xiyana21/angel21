@@ -1,15 +1,19 @@
 {
   "name": "robot",
   "version": "1.0.0",
-  "description": "Alexa app to control robot",
-  "main": "index.js",
+  "description": "Alexa server application (for testing purposes only)",
+  "main": "server.js",
   "author": "xiyana figuera <taeyangofrose@gmail.com>",
   "license": "Apache-2.0",
-  "alexa": {
-    "applicationId": null
-  },
   "dependencies": {
-    "alexa-app": "^2.4.0",
+    "alexa-app-server": "^2.3.1",
     "node-gcm": "^0.14.4"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/xiyana21/angel21.git"
+},
+    "engines": {
+    "node": "6.9.4"
   }
 }
